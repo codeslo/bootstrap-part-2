@@ -8,7 +8,7 @@ html, body{
     height:100%;
 }
 
-body h1,h2{
+h1,h2{
     font-family: got,serif;
 }
 
@@ -73,6 +73,7 @@ img{
 
 @media(max-width:800px){
     .header{
+    margin-top:-5%;
     background-image:url("got-images/banner-sm.jpg");
     background-size:contain;
     height:40%;
