@@ -1,0 +1,73 @@
+@font-face{
+    font-family:"got";
+    src:url("fonts/got.ttf")
+}
+
+html, body{
+    width:100%;
+    height:100%;
+}
+
+body h1,h2{
+    font-family: got,serif;
+}
+
+.header{
+    margin: -5% 0 3% 0;
+    background-image:url("got-images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:80%;
+    background-color:transparent;
+}
+
+.section{
+    margin:50px 0 0 0;
+}
+
+.section-heading{
+    font-size:3em;
+    padding:15px;
+    color:#F7FAFF;
+}
+
+.about p{
+    font-size:1.5em;
+    font-family:'Open Sans',sans-serif;
+}
+
+img{
+    width:100%;
+}
+
+@media (max-device-width:500px){
+    .header{
+        margin-top:-5%;
+        background-size: contain;
+        height:30%;
+        background-image:url("got-images/banner-sm.jpg");
+        
+    }
+
+    img{
+        margin-bottom:25px;
+    }
+
+    .section-heading{
+        font-size:5em;
+        padding:15px;
+        color:#F7FAFF;
+    }
+    
+    .about p{
+        font-size:2em;
+        font-family:'Open Sans',sans-serif;
+    }
+
+    td,th{
+        font-size:1.25em;
+    }
+
+}
+
+
